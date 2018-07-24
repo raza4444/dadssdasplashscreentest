@@ -36,7 +36,10 @@
     <preference name="SplashScreenDelay" value="10000" />
     <preference name="SplashScreenWidth" value="640" />
     <preference name="SplashScreenHeight" value="960" />
+    <engine name="android" spec="^7.0.0" />
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <plugin name="cordova-plugin-x-socialsharing" spec="^5.4.1" />
+    <plugin name="cordova-plugin-admob-simple" spec="^3.3.4" />
+    <plugin name="cordova-admob" spec="^4.1.16" />
 </widget>

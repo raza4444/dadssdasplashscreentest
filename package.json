@@ -10,6 +10,11 @@
     "author": "Apache Cordova Team",
     "license": "Apache-2.0",
     "dependencies": {
+        "cordova-admob": "^4.1.16",
+        "cordova-admob-sdklibs": "^2.1.6",
+        "cordova-android": "^7.0.0",
+        "cordova-connectivity-monitor": "^1.2.2",
+        "cordova-plugin-admob-simple": "^3.3.4",
         "cordova-plugin-splashscreen": "^5.0.2",
         "cordova-plugin-whitelist": "1",
         "cordova-plugin-x-socialsharing": "^5.4.1",
@@ -19,7 +24,12 @@
         "plugins": {
             "cordova-plugin-splashscreen": {},
             "cordova-plugin-whitelist": {},
-            "cordova-plugin-x-socialsharing": {}
-        }
+            "cordova-plugin-x-socialsharing": {},
+            "cordova-plugin-admob-simple": {},
+            "cordova-admob": {}
+        },
+        "platforms": [
+            "android"
+        ]
     }
 }
