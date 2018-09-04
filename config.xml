@@ -40,5 +40,6 @@
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <plugin name="cordova-plugin-x-socialsharing" spec="^5.4.1" />
+    <plugin name="cordova-plugin-admob-simple" spec="^3.3.4" />
     <plugin name="cordova-admob" spec="^4.1.16" />
 </widget>
