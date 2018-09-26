@@ -16,7 +16,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-navigation href="https://*youtube.com/*" />
-    <preference name="SplashScreen" value="img/download.jpg" />
+    <preference name="SplashScreen" value="www/img/download.jpg" />
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenDelay" value="4000" />
+    <preference name="SplashScreenDelay" value="600000000" />
 </widget>
