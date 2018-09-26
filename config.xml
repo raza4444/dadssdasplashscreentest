@@ -23,7 +23,7 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <preference name="SplashScreen" value="img/download.jpg" />
+    <preference name="SplashScreen" value="www/img/download.jpg" />
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashScreenDelay" value="6000" />
     <engine name="android" spec="^7.0.0" />
