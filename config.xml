@@ -15,6 +15,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="https://*youtube.com/*" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
@@ -31,11 +32,9 @@
     <feature name="SocialSharing">
         <param name="wp-package" value="SocialSharing" />
     </feature>
-    <preference name="SplashScreen" value="/img/download.jpg" />
+    <preference name="SplashScreen" value="img/download.jpg" />
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenDelay" value="10000" />
-    <preference name="SplashScreenWidth" value="640" />
-    <preference name="SplashScreenHeight" value="960" />
+    <preference name="SplashScreenDelay" value="6000" />
     <engine name="android" spec="^7.0.0" />
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <plugin name="cordova-plugin-whitelist" spec="1" />

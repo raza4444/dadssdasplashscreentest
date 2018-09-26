@@ -20,7 +20,7 @@
 */
 
 // Default parameter values including image size can be changed in `config.xml`
-var splashImageWidth = 170;
+var splashImageWidth = 300;
 var splashImageHeight = 200;
 var position = { x: 0, y: 0, width: splashImageWidth, height: splashImageHeight }; 
 var localSplash; // the image to display
@@ -35,20 +35,20 @@ var autoHideSplashScreen = true;
 
 function updateImageLocation() {
     position.width = Math.min(splashImageWidth, window.innerWidth);
-    position.height = position.width * (splashImageHeight / splashImageWidth);
+    position.height = position.width * ('100%' / splashImageWidth);
 
     localSplash.style.width = window.innerWidth + "px";
-    localSplash.style.height = window.innerHeight + "px";
+    localSplash.style.height = "100%";
     localSplash.style.top = "0px";
     localSplash.style.left = "0px";
 
-    localSplashImage.style.top = "50%";
-    localSplashImage.style.left = "50%";
-    localSplashImage.style.height = position.height + "px";
-    localSplashImage.style.width = position.width + "px";
-    localSplashImage.style.marginTop = (-position.height / 2) + "px";
-    localSplashImage.style.marginLeft = (-position.width / 2) + "px";
+    localSplashImage.style.top = "0%";
+    localSplashImage.style.left = "0%";
+    localSplashImage.style.height = "100%";
+    localSplashImage.style.width =   "100%";
+
 }
+
 
 function onResize() {
     updateImageLocation();
@@ -70,6 +70,7 @@ var SplashScreen = {
             localSplash.style["z-index"] = "99999";
 
             localSplashImage = document.createElement("img");
+            localSplashImage.className = "razaLog";
             localSplashImage.src = imageSrc;
             localSplashImage.style.position = "absolute";
 

@@ -36,11 +36,10 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="https://*youtube.com/*" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
-    <preference name="SplashScreen" value="/img/download.jpg" />
+    <preference name="SplashScreen" value="img/download.jpg" />
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenDelay" value="10000" />
-    <preference name="SplashScreenWidth" value="640" />
-    <preference name="SplashScreenHeight" value="960" />
+    <preference name="SplashScreenDelay" value="4000" />
 </widget>
